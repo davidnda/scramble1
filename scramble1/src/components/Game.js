@@ -62,7 +62,7 @@ export default function Game() {
     const status = winner 
         ? winner === 'D' 
             ? 'Draw' 
-            : 'Winnder is' + winner
+            : 'And.....the glorious winner is' + winner
         : 'Next player is ' + (xIsNext ? 'X' : 'O');
 
     
